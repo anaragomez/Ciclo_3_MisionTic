@@ -1,3 +1,4 @@
+import React from 'react';
 import Logo from "./Logo";
 import logoFacebook from "../images/logofb.png";
 import logoGoogle from "../images/logogoogle.png";
