@@ -3,15 +3,16 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Signup from "./components/Signup";
-import Products from "./components/Products";
-import Login from "./components/Login";
+import Logo from "./components/Logo"
+import Products from "./Productos/productsRegister/Products";
+
 function App() {
   return (
     <div>
-      <Login/>
-      <Signup/>
-      <Products/>
-    </div>
+           <Signup/>
+           <Logo/>
+           <Products/>
+        </div>
   );
 }
 

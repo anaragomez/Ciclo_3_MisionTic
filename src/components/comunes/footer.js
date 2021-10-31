@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Products(){
+function Footer(){
     return(
             
         <div class="container">
@@ -15,7 +15,4 @@ function Products(){
  );
 }
 
-export default Products; 
-
-
-
+export default Footer; 
