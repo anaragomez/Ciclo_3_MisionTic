@@ -9,9 +9,7 @@ import Products from "./Productos/productsRegister/Products";
 function App() {
   return (
     <div>
-           <Signup/>
-           <Logo/>
-           <Products/>
+                     <Products/>
         </div>
   );
 }
