@@ -2,15 +2,14 @@ import React from 'react';
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Signup from "./components/Signup";
-import Logo from "./components/Logo"
-import Products from "./Productos/productsRegister/Products";
+
+import navbar from "./components/comunes/navbars.js";
 
 function App() {
   return (
     <div>
-                     <Products/>
-        </div>
+            <navbars/>
+    </div>
   );
 }
 
