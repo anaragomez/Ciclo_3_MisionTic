@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import Logo from "./components/Logo";
+import navbar from "./components/comunes/navbars";
 
 function Products(){
     return(
