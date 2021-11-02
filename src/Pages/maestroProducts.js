@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "./components/Logo";
-import navbar from "./components/comunes/navbars";
+import Logo from "../components/Logo";
+import navbars from "../components/comunes/navbars";
 
-function Products(){
+function maestroProducts(){
     return(
 <div class="wrapper">
   <div class="one">One</div>
@@ -13,10 +13,10 @@ function Products(){
   <div class="six">Six</div>
 </div>
 
-        );
+  );
 }
 
-export default Products; 
+export default maestroProducts; 
 
 
 
