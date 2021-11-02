@@ -1,7 +1,6 @@
 import React from "react";
-import Logo from "./components/Logo";
-import navbar from "./components/comunes/navbars";
-
+import Logo from "./Logo";
+import navbars from "./comunes/navbars";
 
 function Signup(){
     return(
@@ -15,17 +14,3 @@ function Signup(){
 export default Signup;
   
 
-
-
-
-
-
-
-
-function Signup(){
-    return(
-        <div>AQUÍ VA EL REGISTRO</div>
-    )
-}
-
-export default Signup; 
