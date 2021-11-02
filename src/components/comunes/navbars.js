@@ -1,12 +1,14 @@
-import React  from 'react';
+import React from 'react';
+import Logo from "./components/Logo";
+
 
 function navbars(){
     return(
-    
-<div>
-       <p>parrafo</p>
-</div>
-
+    <nav class="navbar fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fixed top</a>
+    </div>
+    </nav>
     );
 }
 
