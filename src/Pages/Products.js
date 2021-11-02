@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "./components/comunes/Logo";
-import navbar from "./components/comunes/navbars";
+import Logo from "../../src/components/Logo";
+import navbars from "./../components/comunes/navbars";
 
 function Products(){
     return(
@@ -13,10 +13,10 @@ function Products(){
   <div class="six">Six</div>
 </div>
 
-        );
+  );
 }
 
-export default Products; 
+export default Products;
 
 
 
