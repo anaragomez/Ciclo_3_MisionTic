@@ -1,6 +1,6 @@
 function Signup(){
     return(
-        <div>AQUÍ VA EL REGISTRO</div>
+        <div></div>
     )
 }
 
