@@ -1,10 +1,12 @@
 import Logo from "./Logo";
 import logoGoogle from "../images/logogoogle.png";
 import {useState} from "react";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Login() {
     const [email, setEmail]= useState();
     const [password, setPassword]= useState();
+    const { loginWithRedirect } = useAuth0(); 
     const handleClick = (e)=>{
       e.preventDefault();
       console.log("click");
@@ -85,7 +87,7 @@ function Login() {
                 
               </div>
               <div className="col">
-                <button className="btn btn-outline-danger w-100 m-1">
+                <button className="btn btn-outline-danger w-100 m-1" onClick={() => loginWithRedirect()} >
                   <div className="row align-items-center">
                     <div className="col-2 d-none d-md-block">
                       <img src={logoGoogle} width="32" alt="" />
