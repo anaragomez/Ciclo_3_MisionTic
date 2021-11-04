@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-import logoFacebook from "../images/logofb.png";
 import logoGoogle from "../images/logogoogle.png";
 import {useState} from "react";
 
@@ -76,14 +75,14 @@ function Login() {
             </div>
             <div className="row">
               <div className="col">
-                <button className="btn btn-outline-primary w-100 m-1">
+                
                   <div className="row align-items-center">
                     <div className="col-2 d-none d-md-block">
-                      <img src={logoFacebook} width="32" alt="" />
+                      
                     </div>
-                    <div className="col-12 col-md-10 text-center">Facebook</div>
+                    
                   </div>
-                </button>
+                
               </div>
               <div className="col">
                 <button className="btn btn-outline-danger w-100 m-1">
