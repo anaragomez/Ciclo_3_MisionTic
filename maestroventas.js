@@ -1,8 +1,9 @@
 import Logo from "./Logo";
 import React from "react";
-function Ventas() {
+import Navbar from "navbar.js"
+function maestroventas() {
     return (
-    <script>
+    <div>
       <div class="container">
         <div class="row align-items-start">
           <div class="col">
@@ -125,6 +126,7 @@ function Ventas() {
             </tr>
         </tbody>
     </table>
-    </script>
+    </div>
     );
-    }
+}
+export default maestroventas;
