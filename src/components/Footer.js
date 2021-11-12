@@ -1,8 +1,9 @@
 import React from 'react';
-function Signup(){
+
+function Footer(){
     return(
         <div>AQUÍ VA EL REGISTRO</div>
     )
 }
 
-export default Signup; 
+export default Footer; 

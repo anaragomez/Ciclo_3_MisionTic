@@ -1,44 +1,15 @@
-import Logo from "./Logo";
-
+import React from 'react';
+import Logo from './Logo';
 
 function Navbar(){
     return(
-<nav className="navbar navbar-light bg-light">
-    <div class="container-fluid">
-    <Logo /> Catimore Coffee  
-         
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">RegistroUsuarios</a>
-        </li>
-     
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Administración Productos
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">RegistroProductos</a></li>
-            <li><a class="dropdown-item" href="#">MaestroProductos</a></li>
-          </ul>
+        <div class="container">
+        <div class="row row-cols-3">
+          <div class="col-3"> import './Logo.js'</div>
+          <div class="col-6">Catimore Cooffe</div>
+          <div class="col-3">Column</div>
+          </div>
+       )
+};
 
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Administración Ventas
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">RegistroVentas</a></li>
-            <li><a class="dropdown-item" href="#">MaestroVentas</a></li>
-          </ul>
-        </li>
-      </ul>
- 
-    </div>  
-    </div>
-
-</nav>
-)
-}
-export default Navbar; 
+export default Navbar;
