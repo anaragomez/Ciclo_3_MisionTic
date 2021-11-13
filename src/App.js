@@ -4,19 +4,15 @@ import "./App.css";
 //import Signup from "./components/Signup";
 //import Products from "./components/Products";
 //import Login from "./components/Login";
-import LayoutRegistro from "./components/LayoutRegistro";
+//import LayoutRegistro from "./components/LayoutRegistro";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <LayoutRegistro/>
+      <Navbar />
     </div>
   );
 }
 
 export default App;
-
-
-
-
- 
