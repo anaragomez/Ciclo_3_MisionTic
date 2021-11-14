@@ -4,12 +4,16 @@ import "./App.css";
 //import Signup from "./components/Signup";
 //import Products from "./components/Products";
 //import Login from "./components/Login";
-import Login from "./Navbar2";
+import Navbar2 from "./components/Navbar2";
+import Products from "./components/Products";
+import Signup from "./components/Signup";
 
 function App() {
   return (
     <div>
-      < Navbar2/>
+      <Navbar2/>
+      <Products/>
+      <Products/>
     </div>
   );
 }
