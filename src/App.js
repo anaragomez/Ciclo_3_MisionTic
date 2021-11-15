@@ -1,18 +1,21 @@
-import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import Signup from "./components/Signup";
-import Products from "./components/Products";
-import Login from "./components/Login";
+const express = require("express");
+const cors = require ("cors");
+const app = express();
 
-function App() {
-  return (
-    <div>
-      <Login/>
-      <Signup/>
-      <Products/>
-    </div>
-  );
-}
+//settings
+app.set("port", process.env.PORT || 4000);
 
-export default App;
+
+//middlewares
+app.use(cors());
+app.use(express.json());
+
+//routes
+
+app.use ("/api/usuarios", require("./routes/user-route"));
+app.use ("/api/productos", require("./routes/prod-route"));
+app.use ("/api/ventas", require("./routes/venta-route"));
+
+
+
+module.exports = app
