@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const { Mongoose } = require('mongoose')
-const Server = require('./models/server')
+const Server = require('./server')
 
 const server = new Server()
 
